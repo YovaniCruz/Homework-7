@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Copse&family=Roboto&display=swap" rel="stylesheet">
+    <!-- bootstrap css framework -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NavBar -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Badge with my name on it to stay in top left of each screen size -->
+        <a class="navbar-brand">Yovani Cruz</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-md-auto">
+            <a class="nav-item nav-link" href="index.html">About Me</a>
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <h1 class="mt-5">Contact Me</h1>
+            </div>
+        </div>
+        <hr class="my-4">
+    <!-- Contact form -->
+        <section class="contactform">
+            <form>
+                <div class="form-group">
+                    <label>Name</label>
+                    <textarea class="form-control" id="InputName" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Email address</label>
+                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">Your information will not be shared.</small>
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea class="form-control" id="InputMessage" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <span class="justify-content-center text-muted">&copy; Yovani Cruz 2020</span>
+        </div>
+    </footer>
+
+    <!-- bootstrap JavaScript * 3 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
